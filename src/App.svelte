@@ -28,7 +28,7 @@
     event.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:3080/utente", {
+      const res = await fetch("https://server-backend-express-production.up.railway.app/utente", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
